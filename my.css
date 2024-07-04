@@ -70,7 +70,6 @@ body{
 .btn{
         display: inline-block;
         cursor: pointer;
-        /* padding: 1rem 2.8rem; */
         background: var(--main-color);
         border-radius: 4rem;
         box-shadow: 0 0 0.5rem var(--main-color);
@@ -84,7 +83,6 @@ body{
 .btn1{
         display: inline-block;
         cursor: pointer;
-        /* padding: 1rem 2.8rem; */
         background: var(--main-color);
         border-radius: 4rem;
         box-shadow: 0 0 0.5rem var(--main-color);
@@ -105,9 +103,6 @@ body{
 
 input{
     display: inline-block;
-    /* cursor: pointer; */
-    /* padding: 1rem 2.8rem; */
-    /* background: var(--main-color); */
     border-radius: 0.5rem;
     box-shadow: 0 0 0.5rem var(--main-color);
     font-size: 1rem;

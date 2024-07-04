@@ -94,12 +94,10 @@ window.addEventListener("load", () => {
 
     // Create input field and button for user interaction
     let cityInput = document.querySelector("input");
-    // cityInput.type = "text";
-    // cityInput.placeholder = "Enter city name";
+    
 
     let cityButton = document.querySelector(".btn");
-    // cityButton.textContent = "Get Weather";
-
+   
     let currloc=document.querySelector(".btn1")
 
     cityButton.addEventListener("click", () => {
@@ -155,8 +153,6 @@ window.addEventListener("load", () => {
 
     })
 
-    // document.body.appendChild(cityInput);
-    // document.body.appendChild(cityButton);
 
     // Function to set the weather icon based on the provided icon code
     function setIcons(icon, iconID) {
