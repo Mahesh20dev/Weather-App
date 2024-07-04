@@ -30,3 +30,4 @@ This is a simple weather app that displays the current weather conditions based 
 3. The app uses the Fetch API to make HTTP requests to the OpenWeatherMap API.
 4. The app uses CSS Flexbox for layout and styling.
 5. The app uses JavaScript to handle user interactions and update the weather information on the page.
+6. If you get any error in temparature readings , "refresh the window".
