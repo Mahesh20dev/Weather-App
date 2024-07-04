@@ -120,12 +120,22 @@ input:hover{
 
 
 /* For mobile devices */
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 720px) {
     .location, .temparature {
         width: 100%;
     }
     body{
-        color: white;
+        background-image: url("chuttersnap-9AqIdzEc9pY-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center; 
+        font-family: 'Poppins',sans-serif;
+        color: rgb(6, 6, 6);
+        letter-spacing: 1px;
     }
 
     .header {
@@ -145,11 +155,11 @@ input:hover{
     }
 
     .btn, .btn1 {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     input {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 }
 
