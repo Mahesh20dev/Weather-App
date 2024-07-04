@@ -120,7 +120,7 @@ input:hover{
 
 
 /* For mobile devices */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) and(max-width:370px) {
     .location, .temparature {
         width: 100%;
     }
